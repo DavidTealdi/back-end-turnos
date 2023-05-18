@@ -35,7 +35,7 @@ server.use((req, res, next) => {
 
 // RUTA PRINCIPAL
 server.get('/', (req, res) => {
-    res.status.send('Ruta principal')
+    res.status(200).send('Ruta principal')
 })
 
 // RUTAS

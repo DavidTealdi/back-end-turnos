@@ -6,7 +6,7 @@ const { db } = require('./src/database/db.js')
 dotenv.config();
 
 
-const port = process.env.port_server || 3001 
+const port = process.env.Server_PORT || 3001 
  
 
 server.listen(port, async () => {

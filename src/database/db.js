@@ -8,7 +8,7 @@ const Userlogin = require('../models/UserLogin')
 
 const {USER, PASSWORD, HOST, PORT, DDB} = process.env
 
-// Conexion a la base de datos
+// Conexion a la base de datos local
 
 const sequelize = new Sequelize(
     `postgres://${USER}:${PASSWORD}@${HOST}:${PORT}/${DDB}`,
